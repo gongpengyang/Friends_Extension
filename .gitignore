@@ -1,0 +1,7 @@
+Friends_Extension.xcodeproj/xcuserdata/
+Friends_Extension.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+Friends_Extension.xcodeproj/project.xcworkspace/xcuserdata/
