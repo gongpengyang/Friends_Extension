@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Friends_Extension"
-  s.version      = "1"
+  s.version      = "3"
   s.summary      = "Friends_Extension."
 
   # This description is used to generate tags and improve search results.

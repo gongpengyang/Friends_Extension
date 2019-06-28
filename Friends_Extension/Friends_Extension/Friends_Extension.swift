@@ -10,7 +10,7 @@
 import CTMediator
 
 public extension CTMediator {
-    @objc public func A_showSwift(callback:@escaping (String) -> Void) -> UIViewController? {
+    @objc public func Friends_Extension(callback:@escaping (String) -> Void) -> UIViewController? {
         let params = [
             "callback":callback,
             kCTMediatorParamsKeySwiftTargetModuleName:"Friends"
