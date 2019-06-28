@@ -15,6 +15,8 @@
 		A5EDA25822C5B24F0078F818 /* Friends_ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA25722C5B24F0078F818 /* Friends_ExtensionTests.swift */; };
 		A5EDA26322C5B24F0078F818 /* Friends_ExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA26222C5B24F0078F818 /* Friends_ExtensionUITests.swift */; };
 		A5EDA27222C5C85D0078F818 /* Friends_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA27122C5C85D0078F818 /* Friends_Extension.swift */; };
+		A5F7A3B222C5D535000425B6 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F7A3B122C5D535000425B6 /* CTMediator.framework */; };
+		B0F7F844442E1FF3EB13FBEF /* Pods_Friends_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C788BEFABB3C563EF3522606 /* Pods_Friends_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00277F096CCA054F3DEE623E /* Pods-Friends_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friends_Extension.debug.xcconfig"; path = "Target Support Files/Pods-Friends_Extension/Pods-Friends_Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		273489E5C81A115CFCD183A0 /* Pods-Friends_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friends_Extension.release.xcconfig"; path = "Target Support Files/Pods-Friends_Extension/Pods-Friends_Extension.release.xcconfig"; sourceTree = "<group>"; };
 		A5EDA23F22C5B24E0078F818 /* Friends_Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends_Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EDA24222C5B24E0078F818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EDA24422C5B24E0078F818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,9 @@
 		A5EDA26222C5B24F0078F818 /* Friends_ExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends_ExtensionUITests.swift; sourceTree = "<group>"; };
 		A5EDA26422C5B24F0078F818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5EDA27122C5C85D0078F818 /* Friends_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends_Extension.swift; sourceTree = "<group>"; };
+		A5F7A3B022C5D44F000425B6 /* Friends_Extension-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Friends_Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5F7A3B122C5D535000425B6 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C788BEFABB3C563EF3522606 /* Pods_Friends_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friends_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F7A3B222C5D535000425B6 /* CTMediator.framework in Frameworks */,
+				B0F7F844442E1FF3EB13FBEF /* Pods_Friends_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D5969B300B52F33A8CB294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F7A3B122C5D535000425B6 /* CTMediator.framework */,
+				C788BEFABB3C563EF3522606 /* Pods_Friends_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2915962DD62E8A989E817828 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00277F096CCA054F3DEE623E /* Pods-Friends_Extension.debug.xcconfig */,
+				273489E5C81A115CFCD183A0 /* Pods-Friends_Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A5EDA23622C5B24E0078F818 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				A5EDA25622C5B24F0078F818 /* Friends_ExtensionTests */,
 				A5EDA26122C5B24F0078F818 /* Friends_ExtensionUITests */,
 				A5EDA24022C5B24E0078F818 /* Products */,
+				2915962DD62E8A989E817828 /* Pods */,
+				00D5969B300B52F33A8CB294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				A5EDA27122C5C85D0078F818 /* Friends_Extension.swift */,
+				A5F7A3B022C5D44F000425B6 /* Friends_Extension-Bridging-Header.h */,
 			);
 			path = Friends_Extension;
 			sourceTree = "<group>";
@@ -143,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5EDA26722C5B24F0078F818 /* Build configuration list for PBXNativeTarget "Friends_Extension" */;
 			buildPhases = (
+				89B30F409FCFA2CEEA1A19BD /* [CP] Check Pods Manifest.lock */,
 				A5EDA23B22C5B24E0078F818 /* Sources */,
 				A5EDA23C22C5B24E0078F818 /* Frameworks */,
 				A5EDA23D22C5B24E0078F818 /* Resources */,
+				75702E05D91C6A2C7064CE03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +236,7 @@
 				TargetAttributes = {
 					A5EDA23E22C5B24E0078F818 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					A5EDA25222C5B24F0078F818 = {
 						CreatedOnToolsVersion = 10.0;
@@ -261,6 +294,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75702E05D91C6A2C7064CE03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friends_Extension/Pods-Friends_Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Friends_Extension/Pods-Friends_Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B30F409FCFA2CEEA1A19BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Friends_Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5EDA23B22C5B24E0078F818 /* Sources */ = {
@@ -442,8 +522,10 @@
 		};
 		A5EDA26822C5B24F0078F818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00277F096CCA054F3DEE623E /* Pods-Friends_Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59N43HF7R3;
 				INFOPLIST_FILE = Friends_Extension/Info.plist;
@@ -453,15 +535,24 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiyuan.Friends-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Friends_Extension/Friends_Extension/Friends_Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"${SRCROOT}/**",
+				);
 			};
 			name = Debug;
 		};
 		A5EDA26922C5B24F0078F818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273489E5C81A115CFCD183A0 /* Pods-Friends_Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59N43HF7R3;
 				INFOPLIST_FILE = Friends_Extension/Info.plist;
@@ -471,8 +562,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiyuan.Friends-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Friends_Extension/Friends_Extension/Friends_Extension-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"${SRCROOT}/**",
+				);
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "${SRCROOT}";
 			};
 			name = Release;
 		};

@@ -9,5 +9,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'Friends_Extension' do
+
+pod "CTMediator"
  
 end
